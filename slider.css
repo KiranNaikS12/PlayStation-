@@ -1,0 +1,290 @@
+.gride-slider-section
+{
+    /* padding-top: 50px 0; */
+    /* background-color: red; */
+    padding: 30px;
+    /* height: 100px; */
+    
+}
+
+.grid-slider-wrap 
+{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    
+}
+
+.gride-slide
+{
+    /* padding-bottom: 50px; */
+    height: 200px;
+    /* background-color: lightblue; */
+    /* border: 2px solid #777; */
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-slider-inner
+{
+    /* padding: 5px; */
+    margin-left: 10px;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 12px 3px lightgray;
+    height: 150px;
+    /* background-color: lightblue; */
+    display: flex;
+    width: 200px;
+}
+
+.grid-slider-inner img 
+{
+
+    width: 100%;
+}
+
+.grid-slider-inner:hover img 
+{
+    padding: 5px;
+    border: 1px solid rgb(0, 110, 255);
+
+}
+.flickity-page-dots
+{
+    display: none;
+}
+
+@media (max-width:997px)
+{
+    .gride-slide
+    {
+        width: 24%;
+    } 
+}
+@media (max-width:767px)
+{
+    .gride-slide
+    {
+        width: 35%;
+        height: 100%;
+    } 
+}
+
+@media (max-width:590px)
+{
+    .gride-slide
+    {
+        width: 48%;
+        height: 100%;
+    } 
+}
+
+@media (max-width:350px)
+{
+    .gride-slide
+    {
+        width: 48%;
+        height: 95%;
+    } 
+}
+
+
+/* 3rd slider  */
+.SliderContent-2
+{
+    filter: brightness(100%); 
+    margin-top: 50px;
+    background-repeat:no-repeat;
+    overflow-x: hidden;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+
+#contentWrapper-2 
+{
+    /* background-color: red; */
+    margin: 20px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 100;
+}
+
+.content-1
+{
+    /* padding-top: 50px; */
+}
+
+#textWrapper-2 span
+{
+    display: block;
+    font-size: 30px;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 50px;
+}
+
+#contentWrapper-2 h1 
+{
+    font-size: 40px;
+    font-family: roboto,arial;
+    padding-bottom: 0px;
+    font-weight: 200;
+    font-style: normal;
+}
+#contentWrapper-2 p 
+{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: roboto,arial;
+    color: rgb(79, 79, 79);
+    
+}
+
+.slider-section
+{
+    padding: 30px;
+    padding-top: 0px;
+    display: flex;
+    /* justify-content: center; */
+    /* background-color: red; */
+    /* align-items: center; */
+    height: 50vh;
+    margin-top: -10px;
+}
+
+.slider-wrap 
+{
+    width: 100%;
+       
+}
+
+.slider
+{
+    width: 100vwpx;
+    /* height: 50%; */
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.slider-inner 
+{
+   display: flex;
+   /* justify-content: center; */
+   /* height: 150px; */
+   margin-top: -10px;
+   padding: 21px;
+   /* background-color: red; */
+   
+}
+
+.slider-inner img 
+{
+    height: 37vh;
+    /* width: 60vw; */
+    width: 500px;
+    /* margin-bottom:-10px; */
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.flickity-button-icon
+{
+    border-color: blue;
+    color: blue;
+    
+}
+
+@media (max-width:1160px)
+{
+    .slider-inner img
+     {
+        width: 100%;
+        
+     }
+}
+
+@media (max-width:1050px)
+{
+    .slider-inner
+    {
+        width: 100%;
+    }
+    .slider-inner img
+     {
+        width: 100%;
+        
+     }
+}
+
+@media (max-width:974px)
+{
+    .slider-inner img
+     {
+        width: 100%;
+        
+     }
+}
+
+@media (max-width:768px)
+{
+    .slider-inner img
+     {
+        width: 100%;
+        
+     }
+}
+
+@media (max-width:425px)
+{
+    .slider-inner img 
+    {
+        width: 100%;
+    }
+
+}
+@media (max-width:412px)
+{
+    .slider-inner img 
+    {
+        width: 95%;
+        /* height: 37vh; */
+    }
+    
+}
+
+
+@media (max-width:400px)
+{
+    .slider-inner img 
+    {
+        width: 100%;
+    }
+    #contentWrapper-2 
+    {
+        padding: 0px;
+    }
+}
+
+@media (max-width:330px)
+{
+    .slider-inner img 
+    {
+        width: 100%;
+    }
+    #contentWrapper-2 
+    {
+        padding: 0px;
+    }
+}
+
+
